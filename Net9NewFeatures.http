@@ -1,0 +1,44 @@
+@Net9NewFeatures_HostAddress = http://localhost:5017
+
+GET {{Net9NewFeatures_HostAddress}}/test-lock
+Accept: application/json
+
+###
+GET {{Net9NewFeatures_HostAddress}}/test-task-when-each
+Accept: application/json
+
+###
+GET {{Net9NewFeatures_HostAddress}}/test-params
+Accept: application/json
+
+###
+GET {{Net9NewFeatures_HostAddress}}/test-semi-auto-props
+Accept: application/json
+
+###
+GET {{Net9NewFeatures_HostAddress}}/test-hybrid-cache
+Accept: application/json
+
+###
+GET {{Net9NewFeatures_HostAddress}}/test-search-values
+Accept: application/json
+
+###
+GET {{Net9NewFeatures_HostAddress}}/test-feature-switch
+Accept: application/json
+
+###
+GET {{Net9NewFeatures_HostAddress}}/test-aggregateby
+Accept: application/json
+
+###
+GET {{Net9NewFeatures_HostAddress}}/test-countby
+Accept: application/json
+
+###
+GET {{Net9NewFeatures_HostAddress}}/test-index
+Accept: application/json
+
+###
+GET {{Net9NewFeatures_HostAddress}}/test-uuid7
+Accept: application/json
